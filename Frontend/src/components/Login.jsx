@@ -28,7 +28,7 @@ function Login() {
         <form className="max-w-[400px] w-full mx-auto px-8 p-8" onSubmit={handleSignIn}>
           <h2 className="font-bold text-6xl">Sign In</h2>
           <p className="font-bold my-3">
-            New user ?<span className="text-blue-400 ms-1" onClick={()=>navigate('/signup')}>Create an account</span>
+            New user ?<span className="text-blue-400 ms-1 cursor-pointer" onClick={()=>navigate('/signup')}>Create an account</span>
           </p>
           <div>
             <input
