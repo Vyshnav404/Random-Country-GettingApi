@@ -9,10 +9,10 @@ import Login from './components/Login'
 function App() {
   return (
     <Routes>
-      <Route path='/falls' element={<LoginPage/>}></Route>
+      {/* <Route path='/falls' element={<LoginPage/>}></Route> */}
       <Route path='/signup' element={<SignUpPage />}></Route>
-      <Route path='/' element={<PrivateRoutes> <HomePage/> </PrivateRoutes>}></Route>
       <Route path='/login' element={<Login/>}></Route>
+      <Route path='/' element={<PrivateRoutes> <HomePage/> </PrivateRoutes>}></Route>
     </Routes>
   )
 }
