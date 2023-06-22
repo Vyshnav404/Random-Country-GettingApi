@@ -23,7 +23,7 @@ function HomePage() {
   const handleLogout = () => {
     localStorage.removeItem("user")
     localStorage.removeItem("token")
-    navigate('/'); 
+    navigate('/login'); 
   };
 
   return (

@@ -53,7 +53,7 @@ function SignUpPage() {
           </button>
           <p className='text-white text-center'>
             Already have an account?{' '}
-            <span className='font-bold cursor-pointer' onClick={() => navigate('/')}>
+            <span className='font-bold cursor-pointer' onClick={() => navigate('/login')}>
               Login
             </span>
           </p>
